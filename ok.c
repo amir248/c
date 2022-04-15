@@ -2,7 +2,7 @@
 int main(){
 	int Count;
 	for(Count=0;Count<10;Count++){
-		printf("%D% \n" , Count);
+		printf("%u \n" , Count);
 	}		
 	printf("Amir Shikaren! :-) Yra!!!\n");
 	printf("Guten ");
