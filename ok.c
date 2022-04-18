@@ -7,7 +7,9 @@ int main(){
 		printf("\n what you name?");
 	}
 	scanf("%s", &ok);
-	printf(" :-) Yra!!!\n Привет ","%s", ok, " \n");
+	printf(" :-) Yra!!!\n Привет ");
 	printf("%s", ok);
-	printf("\n Отличного дня и волшебного настроения!!!\n");
+	printf("\n Отличного тубе дня ");
+        printf("%s",  ok);
+	printf(" и волшебного настроения!!!\n");
 }
