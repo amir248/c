@@ -10,7 +10,7 @@ int main(){
 	scanf("%s", &ok);
 	printf(" :-) Yra!!!\n Привет ");
 	printf("%s", ok);
-	printf("\n Отличного тубе дня ");
+	printf("\n Отличного тебе дня ");
         printf("%s",  ok);
 	printf(" и волшебного настроения!!! ");
 	printf("%s", ok, "\n");
