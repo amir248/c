@@ -2,6 +2,7 @@
 int main(){
 	int Count;
 	char ok[70];
+	int age[2];
 	for(Count=0;Count<1;Count++){
 		printf("%u \n" , Count, "\n Как тебя зовут?");
 		printf("\n what you name?");
@@ -11,5 +12,15 @@ int main(){
 	printf("%s", ok);
 	printf("\n Отличного тубе дня ");
         printf("%s",  ok);
-	printf(" и волшебного настроения!!!\n");
+	printf(" и волшебного настроения!!! ");
+	printf("%s", ok, "\n");
+	printf(" А сколько тебе лет? ");
+	scanf("%d", age); 
+	if(age<18){
+		printf("О ну ты и старПёр \n Всего доброго! \n Прощай Патрик! \n");
+	}else if(age>18){
+		printf("O_o Салага, такой мелкий \n еще не дорос до того чтобы \n шпрехАть кАмпутер, \n иди сначалА подрасти!\n");
+	}else{
+		printf("else \n");
+	}
 }
