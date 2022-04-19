@@ -16,10 +16,13 @@ int main(){
 	printf("%s", ok, "\n");
 	printf(" А сколько тебе лет? ");
 	scanf("%d", age); 
-	if(age<18){
+	if(age<=18){
+		printf("%d", age,"\n");
 		printf("О ну ты и старПёр \n Всего доброго! \n Прощай Патрик! \n");
-	}else if(age>18){
+	}else if(age>=18){
 		printf("O_o Салага, такой мелкий \n еще не дорос до того чтобы \n шпрехАть кАмпутер, \n иди сначалА подрасти!\n");
+	}else if(age==3){
+		printf("age null");
 	}else{
 		printf("else \n");
 	}
