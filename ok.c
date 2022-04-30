@@ -15,9 +15,9 @@ int main(){
 	printf(" и волшебного настроения!!! ");
 	printf("%s", ok, "\n");
 	printf(" А сколько тебе лет? ");
-	scanf("%d", age); 
+	scanf("%d",&age); 
 	putchar(age);
-	if(age<="18"){
+	if(age<=18){
 		printf("%d", age,"\n");
 		printf("О ну ты и старПёр \n Всего доброго! \n Прощай Патрик! \n");
 	}else if(age>=18){
