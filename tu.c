@@ -10,7 +10,7 @@ main(){
 	if(("%s", &name)=="Amir"){
 		printf("\n Yra!!! \n");
 	}else if(("%s",&name)!=1){
-		printf("\n ok \n");
+		printf("\n esle if !=1 ok \n");
 	}else{
 		printf("else \n");
 	}	
