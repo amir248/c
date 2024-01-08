@@ -14,13 +14,13 @@ int main(){
         printf("%s",  ok);
 	printf(" и волшебного настроения!!! ");
 	printf("%s", ok, "\n");
-	printf(" А сколько тебе лет? ");
+	printf(" A сколько тебе лет? ");
 	scanf("%d",&age); 
 	putchar(age);
-	if(&age<=18){
+	if(&age <= 18){
 		printf("%d", age,"\n");
-		printf("О ну ты и старПёр \n Всего доброго! \n Прощай Патрик! \n");
-	}else if(&age>=18){
+		printf("O ну ты и старПёр \n othre доброго! \n Прощай Патрик! \n");
+	}else if(&age >= 18){
 		printf("O_o Салага, такой мелкий \n еще не дорос до того чтобы \n шпрехАть кАмпутер, \n иди сначалА подрасти!\n");
 	}else if(age==3){
 		printf("age null");
